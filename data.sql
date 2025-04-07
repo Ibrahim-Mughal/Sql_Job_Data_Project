@@ -23,7 +23,7 @@ WITH important_skill AS (
         COUNT(*) AS highest_skill
     FROM skills_job_dim
     GROUP BY skill_id
-)
+)  
 
 
 select skills_dim.skills,
